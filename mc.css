@@ -50,4 +50,13 @@ a,
     text-decoration: none;
     cursor: pointer;
     color: crimson;
+    font-size: 24px;
+}
+p,abbr,strong
+{
+    font-size:20px;
+}
+#about-abbr
+{
+    font-size: 28px;
 }
