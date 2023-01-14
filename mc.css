@@ -1,0 +1,53 @@
+html {
+    background-image: radial-gradient(rgb(111, 255, 152), rgb(255, 255, 255));
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+    color: rgb(0, 0, 0);
+}
+
+body {
+    min-height: 100vh;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 30px;
+    border: 4px ridge indianred;
+}
+
+h1 {
+    padding:10px;
+    text-align: center;
+    border: 4px ridge red;
+    font-weight: bold;
+}
+
+.image {
+    height: 391px;
+    width: 500px;
+}
+
+table {
+    margin: 40px 0 40px 0;
+    text-indent: initial;
+    display: table;
+    border: 3px solid red;
+    border-collapse: separate;
+    border-spacing: 3px;
+}
+
+th,
+td {
+    border: 4px solid red;
+}
+
+a,
+#abbr {
+    text-decoration: none;
+    cursor: pointer;
+    color: crimson;
+}
